@@ -22,12 +22,11 @@ namespace sql_git_testi
         {
             System.Data.SqlClient.SqlConnection con;
             con = new System.Data.SqlClient.SqlConnection();
-            con.ConnectionString = @"Data Source=.\SQLEXPRESS;
+            con.ConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;
                           AttachDbFilename=C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\git_testi.mdf;
                           Integrated Security=True;
                           Connect Timeout=10;
-                          User Instance=True";
-
+                          User Instance=False";
             con.Open();
             MessageBox.Show("Connection opened");
             con.Close();
