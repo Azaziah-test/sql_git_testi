@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace sql_git_testi
 {
@@ -15,6 +16,22 @@ namespace sql_git_testi
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Data.SqlClient.SqlConnection con;
+            con = new System.Data.SqlClient.SqlConnection();
+            con.ConnectionString = @"Data Source=.\SQLEXPRESS;
+                          AttachDbFilename=C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\git_testi.mdf;
+                          Integrated Security=True;
+                          Connect Timeout=10;
+                          User Instance=True";
+
+            con.Open();
+            MessageBox.Show("Connection opened");
+            con.Close();
+            MessageBox.Show("Connection closed");
         }
     }
 }
