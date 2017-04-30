@@ -91,5 +91,17 @@ namespace sql_git_testi
             // TODO: This line of code loads data into the 'git_testiDataSet.testi' table. You can move, or remove it, as needed.
             this.testiTableAdapter.Fill(this.git_testiDataSet.testi);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            BindingSource bs = new BindingSource();
+            bs.DataSource = dataGridView1.DataSource;
+            bs.Filter = "[testi_field] Like '%" + textBox2.Text + "%'";
+            dataGridView1.DataSource = bs;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+        }
     }
 }
