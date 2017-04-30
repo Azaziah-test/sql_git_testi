@@ -1,11 +1,11 @@
-C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\bin\Debug\git_testi.mdf
-C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\bin\Debug\git_testi_log.ldf
 C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\bin\Debug\sql_git_testi.exe.config
 C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\bin\Debug\sql_git_testi.exe
 C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\bin\Debug\sql_git_testi.pdb
-C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\obj\Debug\sql_git_testi.csprojResolveAssemblyReference.cache
 C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\obj\Debug\sql_git_testi.Form1.resources
 C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\obj\Debug\sql_git_testi.Properties.Resources.resources
 C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\obj\Debug\sql_git_testi.csproj.GenerateResource.Cache
 C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\obj\Debug\sql_git_testi.exe
 C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\obj\Debug\sql_git_testi.pdb
+C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\obj\Debug\sql_git_testi.csprojResolveAssemblyReference.cache
+C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\bin\Debug\git_testi.mdf
+C:\Users\Mahtimasiina\Documents\GitHub\sql_git_testi\sql_git_testi\bin\Debug\git_testi_log.ldf
